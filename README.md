@@ -4,6 +4,12 @@ AngularJs-Chips is the angular based component. You can use it to add dynamic ch
 
 ### Install:
 
+`npm install -g grunt-cli bower yo generator-karma generator-angular`
+`bower install angularjs-chips --save-dev`
+`npm install --global gulp-cli`
+
+
+
 `bower install angularjs-chips --save-dev`
 
 Include js file

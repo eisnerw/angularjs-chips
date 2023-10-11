@@ -1,37 +1,48 @@
 chip-tmpl {
   display: inline-block;
-  margin: 0 5px 5px 0; }
+  margin: 0 5px 5px 0;
+}
 
 .default-chip {
-  border: 2px solid #e0e0e0;
+  border: 2px solid rgb(224, 224, 224);
   border-radius: 5px;
-  background: #e0e0e0;
-  padding: 5px; }
+  background: rgb(224, 224, 224);
+  padding: 5px;
+}
 
 chip-tmpl:focus {
-  outline: none; }
-  chip-tmpl:focus .default-chip {
-    border: 2px solid #9e9e9e;
-    background: #9e9e9e;
-    color: white; }
+  outline: none;
+}
+chip-tmpl:focus .default-chip {
+  border: 2px solid rgb(158, 158, 158);
+  background: rgb(158, 158, 158);
+  color: white;
+}
 
 .chip-failed .default-chip {
-  color: red; }
+  color: red;
+}
 
 chips {
   display: block;
-  padding: 5px; }
-  chips > div {
-    display: inline; }
-    chips > div > input {
-      height: 100%;
-      border: none;
-      font-size: 14px; }
-    chips > div > input:focus {
-      outline: none; }
+  padding: 5px;
+}
+chips > div {
+  display: inline;
+}
+chips > div > input {
+  height: 100%;
+  border: none;
+  font-size: 14px;
+}
+chips > div > input:focus {
+  outline: none;
+}
 
 .chip-out-focus {
-  border-bottom: 1px solid #e0e0e0; }
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
 
 .chip-in-focus {
-  border-bottom: 1px solid #106cc8; }
+  border-bottom: 1px solid rgb(16, 108, 200);
+}
